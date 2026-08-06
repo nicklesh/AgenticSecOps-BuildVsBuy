@@ -1,4 +1,4 @@
-# DIY Security Agents
+# AgenticSecOps: Build vs. Buy
 
 **A build-vs-buy series on replacing (or informing a decision not to
 replace) MSSP/vendor security services with in-house AI agents.**
@@ -19,6 +19,8 @@ answers, and this series doesn't default to one over the other.
 
 New module every **Wednesday, 9AM PST**. Follow along here or on
 [LinkedIn](#) *(link to be added)*.
+
+Repo: [github.com/nicklesh/AgenticSecOps-BuildVsBuy](https://github.com/nicklesh/AgenticSecOps-BuildVsBuy)
 
 ## Before you use anything here
 
