@@ -10,6 +10,15 @@ tooling and understand how AI-agent-based security automation works in
 practice. It is not a commercial product, a professional security service,
 and no client or advisory relationship is created by using it.
 
+## Code Is Not Validated
+
+Code in this repository is provided to illustrate architecture and
+implementation approach — **it has not been validated, security-reviewed,
+or tested against production environments** unless a module's README
+states otherwise. Treat every code sample as a starting point to adapt,
+test, and review yourself, not as a vetted, ready-to-run tool. Running
+any of it is entirely at your own discretion and risk.
+
 ## No Warranty
 
 All code, architecture guidance, and written content in this repository is

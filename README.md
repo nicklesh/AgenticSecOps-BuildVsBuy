@@ -26,8 +26,10 @@ Repo: [github.com/nicklesh/AgenticSecOps-BuildVsBuy](https://github.com/nicklesh
 
 Read [DISCLAIMER.md](./DISCLAIMER.md) first. Short version: this is
 educational content, provided as-is, not professional security advice —
-and anything resembling testing or attack simulation must only ever be
-run against systems you own or are explicitly authorized to test.
+code samples are unvalidated starting points, not vetted tools, use is
+at your own discretion — and anything resembling testing or attack
+simulation must only ever be run against systems you own or are
+explicitly authorized to test.
 
 ## Module Index
 
@@ -50,6 +52,10 @@ run against systems you own or are explicitly authorized to test.
 - Problem framing and the real cost of missing it (with liberal vs.
   worst-case figures)
 - Architecture diagram and data flow
+- **Code status disclaimer** — an explicit callout near the top of every
+  module stating the code is unvalidated, provided to illustrate
+  approach, and used at the reader's own discretion (see
+  [DISCLAIMER.md](./DISCLAIMER.md))
 - Build walkthrough (real runnable starter code for modules 1–7 and 10;
   architecture + pseudocode only for modules 8–9)
 - Autonomous / human-approval-required / vendor-territory boundaries for
