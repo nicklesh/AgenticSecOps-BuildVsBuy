@@ -37,4 +37,4 @@ Not every module in this series ends in "build it yourself." This one
 mostly doesn't — and the full reasoning, plus the code if you want to
 see how it works anyway, is linked below.
 
-#Security #AI #Agentic #DevSecOps #BuildVsBuy #CyberSecurity #AppSec #SGIConsent #GenerativeAI #AIAssisted #compliance #soc2
+#Security #AI #Agentic #DevSecOps #BuildVsBuy #CyberSecurity #AppSec #SGIConsent #GenerativeAI #AIAssisted #Compliance #SOC2
