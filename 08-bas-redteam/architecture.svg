@@ -1,0 +1,50 @@
+<svg width="100%" viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="500" fill="#F3EEE3"/>
+
+<rect x="30" y="28" width="46" height="46" rx="7" fill="#1A1D29"/>
+<path d="M53 40 L65 52 L53 64 L41 52 Z" fill="none" stroke="#C9A445" stroke-width="2.4"/>
+<circle cx="53" cy="52" r="4.2" fill="#C9A445"/>
+
+<text x="96" y="46" font-family="Liberation Sans, sans-serif" font-size="12" font-weight="bold" fill="#8A8570" letter-spacing="2">HOW IT WORKS</text>
+<text x="96" y="70" font-family="DejaVu Serif, serif" font-size="26" font-weight="bold" fill="#1A1D29">BAS/red-team <tspan fill="#B8963C">agent architecture</tspan></text>
+
+<line x1="30" y1="96" x2="870" y2="96" stroke="#D8CBA6" stroke-width="1"/>
+
+<!-- Human trigger required banner -->
+<rect x="30" y="112" width="840" height="34" rx="6" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1.2"/>
+<text x="450" y="134" text-anchor="middle" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="bold" fill="#791F1F">HUMAN TRIGGER REQUIRED FOR EVERY RUN — NON-PRODUCTION ONLY</text>
+
+<defs>
+<marker id="garrow8" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="#B8963C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+
+<line x1="450" y1="196" x2="450" y2="240" stroke="#B8963C" stroke-width="1.4" marker-end="url(#garrow8)"/>
+<line x1="450" y1="316" x2="450" y2="360" stroke="#B8963C" stroke-width="1.4" marker-end="url(#garrow8)"/>
+
+<!-- Human operator -->
+<rect x="330" y="160" width="240" height="36" rx="8" fill="#1A1D29"/>
+<text x="450" y="183" text-anchor="middle" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="bold" fill="#C9A445">Human operator triggers session</text>
+
+<!-- Atomic Red Team / Caldera -->
+<rect x="330" y="240" width="240" height="56" rx="10" fill="#FFFFFF" stroke="#D8CBA6" stroke-width="1.2"/>
+<circle cx="362" cy="268" r="18" fill="#1A1D29"/>
+<path d="M354 262 l16 12 M370 262 l-16 12" stroke="#C9A445" stroke-width="1.3"/>
+<text x="392" y="264" font-family="Liberation Sans, sans-serif" font-size="15" font-weight="bold" fill="#1A1D29">Atomic Red Team / Caldera</text>
+<text x="392" y="282" font-family="Liberation Sans, sans-serif" font-size="12" fill="#8A8570">Non-prod, segmented env only</text>
+
+<!-- Orchestration agent -->
+<rect x="330" y="360" width="240" height="56" rx="10" fill="#EEEDFE" stroke="#8A7FD1" stroke-width="1.2"/>
+<circle cx="362" cy="388" r="18" fill="#1A1D29"/>
+<rect x="354" y="380" width="16" height="16" rx="3" fill="none" stroke="#C9A445" stroke-width="1.3"/>
+<line x1="358" y1="380" x2="358" y2="376" stroke="#C9A445" stroke-width="1.3"/>
+<line x1="366" y1="380" x2="366" y2="376" stroke="#C9A445" stroke-width="1.3"/>
+<text x="392" y="384" font-family="Liberation Sans, sans-serif" font-size="16" font-weight="bold" fill="#3C3489">Orchestration agent</text>
+<text x="392" y="402" font-family="Liberation Sans, sans-serif" font-size="12" fill="#534AB7">Claude — plans &amp; maps to ATT&amp;CK</text>
+
+<rect x="30" y="446" width="840" height="34" rx="6" fill="#1A1D29"/>
+<circle cx="52" cy="463" r="9" fill="none" stroke="#C9A445" stroke-width="1.3"/>
+<path d="M49 463 L52 459.5 L55 463 L52 466.5 Z" fill="#C9A445"/>
+<text x="72" y="468" font-family="Liberation Sans, sans-serif" font-size="12" font-weight="bold" fill="#C9A445" letter-spacing="1.5">AGENTICSECOPS: BUILD VS. BUY — MODULE 8</text>
+</svg>
