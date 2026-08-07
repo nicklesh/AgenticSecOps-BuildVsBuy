@@ -1,0 +1,5 @@
+semgrep>=1.80.0
+
+# OWASP ZAP is run separately (typically as a Docker container or
+# daemon against staging) rather than as a Python dependency — see
+# https://www.zaproxy.org/docs/docker/about/
