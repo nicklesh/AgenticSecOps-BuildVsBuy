@@ -1,0 +1,6 @@
+# Install alongside the shared root requirements.txt
+# No Python-package dependencies beyond the shared set — the actual
+# scanning is done by external CLI tools (amass, subfinder), not
+# Python libraries. Install those separately per their own docs:
+#   https://github.com/owasp-amass/amass
+#   https://github.com/projectdiscovery/subfinder
