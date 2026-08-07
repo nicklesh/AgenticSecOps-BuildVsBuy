@@ -1,0 +1,4 @@
+# Install alongside the shared root requirements.txt
+# Scanning is done by an external CLI tool (trivy), not a Python
+# library — install it separately: https://github.com/aquasecurity/trivy
+# The CISA KEV feed is fetched as plain JSON over HTTP, no SDK needed.
