@@ -35,10 +35,10 @@ explicitly authorized to test.
 
 | # | Module | Status | What it covers |
 |---|--------|--------|-----------------|
-| 0 | [Foundations](./00-foundations) | Coming soon | Model-abstraction pattern, eval-harness design, and the authorization/legal baseline every other module builds on |
+| 0 | [Foundations](./00-foundations) | **Shipped** | Model-abstraction pattern, eval-harness design, and the authorization/legal baseline every other module builds on |
 | 1 | [GRC / Compliance Evidence Agent](./01-grc-compliance) | Coming soon | Continuous control-evidence collection for SOC 2 / HIPAA / ISO |
 | 2 | [Attack Surface Management (ASM) Agent](./02-asm) | Coming soon | Continuous external asset discovery and exposure tracking |
-| 3 | [CSPM Agent](./03-cspm) | **In progress (pilot module)** | Cloud config drift detection against CIS benchmarks |
+| 3 | [CSPM Agent](./03-cspm) | **Shipped (pilot module)** | Cloud config drift detection against CIS benchmarks |
 | 4 | [Vulnerability Prioritization & Patch Agent](./04-vuln-patch) | Coming soon | CVE triage against exploit-in-the-wild data and asset criticality |
 | 5 | [SAST/DAST + OWASP Top 10 Agent](./05-sast-dast) | Coming soon | Continuous code and app scanning integrated into CI/CD |
 | 6 | [Identity & Access Review Agent](./06-identity-access) | Coming soon | Continuous IAM review, stale/excess privilege detection |
