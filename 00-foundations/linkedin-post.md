@@ -31,4 +31,4 @@ later.
 
 Full pattern, code, and the eval harness are linked below.
 
-#Security #AI #Agentic #DevSecOps #BuildVsBuy #CyberSecurity #AppSec #SGIConsent #GenerativeAI #AIAssisted #softwarearchitecture
+#Security #AI #Agentic #DevSecOps #BuildVsBuy #CyberSecurity #AppSec #SGIConsent #GenerativeAI #AIAssisted #SoftwareArchitecture
