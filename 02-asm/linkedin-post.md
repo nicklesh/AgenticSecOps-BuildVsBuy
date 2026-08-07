@@ -33,4 +33,4 @@ average breach cost, more if ransomware follows.
 
 Full build + code linked below.
 
-#security #ai #agentic #devsecops #buildvsbuy
+#Security #AI #Agentic #DevSecOps #BuildVsBuy #CyberSecurity #AppSec #SGIConsent #GenerativeAI #AIAssisted
