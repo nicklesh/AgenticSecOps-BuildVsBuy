@@ -1,0 +1,9 @@
+# Shared dependencies across modules. Module-specific requirements
+# (e.g. prowler for CSPM, PyGithub for anything opening PRs) live in
+# each module's own requirements.txt — install both when working in a
+# given module folder.
+
+anthropic>=0.40.0
+openai>=1.50.0
+google-generativeai>=0.8.0
+pydantic>=2.8.0
