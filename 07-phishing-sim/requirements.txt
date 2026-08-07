@@ -1,0 +1,5 @@
+# Install alongside the shared root requirements.txt
+# GoPhish is run as a separate service, not a Python dependency:
+# https://github.com/gophish/gophish
+# This module talks to it via its REST API (requests, not included
+# here — add if your integration code needs it directly).
