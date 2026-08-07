@@ -43,7 +43,7 @@ explicitly authorized to test.
 | 5 | [SAST/DAST + OWASP Top 10 Agent](./05-sast-dast) | **Shipped** | Continuous code and app scanning integrated into CI/CD |
 | 6 | [Identity & Access Review Agent](./06-identity-access) | **Shipped** | Continuous IAM review, stale/excess privilege detection |
 | 7 | [Phishing Simulation & Awareness Agent](./07-phishing-sim) | **Shipped** | Simulated phishing campaigns and targeted training |
-| 8 | [Breach & Attack Simulation Agent](./08-bas-redteam) | Coming soon | Detection-validation against MITRE ATT&CK (architecture + pseudocode only — see disclaimer) |
+| 8 | [Breach & Attack Simulation Agent](./08-bas-redteam) | **Shipped** | Detection-validation against MITRE ATT&CK (architecture + pseudocode only — see disclaimer) |
 | 9 | [Autonomous Pentest Agent](./09-autonomous-pentest) | Coming soon | Why this is the one module where "buy" is the default answer (architecture + pseudocode only — see disclaimer) |
 | 10 | [SOC Alert-Triage Agent](./10-soc-triage) | Coming soon | Automated alert investigation and verdict drafting |
 
