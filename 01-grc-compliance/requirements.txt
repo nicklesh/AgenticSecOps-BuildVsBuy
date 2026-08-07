@@ -1,0 +1,3 @@
+# Install alongside the shared root requirements.txt
+# No additional module-specific dependencies beyond the shared set for
+# this module — it uses only what Module 0's model_client.py needs.
