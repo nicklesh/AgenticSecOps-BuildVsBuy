@@ -1,0 +1,56 @@
+<svg width="100%" viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="560" fill="#F3EEE3"/>
+
+<rect x="30" y="28" width="46" height="46" rx="7" fill="#1A1D29"/>
+<path d="M53 40 L65 52 L53 64 L41 52 Z" fill="none" stroke="#C9A445" stroke-width="2.4"/>
+<circle cx="53" cy="52" r="4.2" fill="#C9A445"/>
+
+<text x="96" y="46" font-family="Liberation Sans, sans-serif" font-size="12" font-weight="bold" fill="#8A8570" letter-spacing="2">FOUNDATIONS</text>
+<text x="96" y="70" font-family="DejaVu Serif, serif" font-size="26" font-weight="bold" fill="#1A1D29">Model <tspan fill="#B8963C">abstraction layer</tspan></text>
+
+<line x1="30" y1="96" x2="870" y2="96" stroke="#D8CBA6" stroke-width="1"/>
+
+<defs>
+<marker id="garrow0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="#B8963C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+
+<!-- Agent logic -->
+<rect x="330" y="130" width="240" height="56" rx="10" fill="#FFFFFF" stroke="#D8CBA6" stroke-width="1.2"/>
+<text x="450" y="153" text-anchor="middle" font-family="Liberation Sans, sans-serif" font-size="16" font-weight="bold" fill="#1A1D29">Agent logic</text>
+<text x="450" y="171" text-anchor="middle" font-family="Liberation Sans, sans-serif" font-size="12" fill="#8A8570">Module 1-10 business logic</text>
+
+<line x1="450" y1="186" x2="450" y2="222" stroke="#B8963C" stroke-width="1.4" marker-end="url(#garrow0)"/>
+
+<!-- Model client abstraction -->
+<rect x="255" y="228" width="390" height="66" rx="10" fill="#EEEDFE" stroke="#8A7FD1" stroke-width="1.2"/>
+<text x="450" y="256" text-anchor="middle" font-family="Liberation Sans, sans-serif" font-size="16" font-weight="bold" fill="#3C3489">ModelClient (abstraction layer)</text>
+<text x="450" y="276" text-anchor="middle" font-family="Liberation Sans, sans-serif" font-size="12" fill="#534AB7">Structured output schema + prompt config</text>
+
+<line x1="360" y1="294" x2="300" y2="340" stroke="#B8963C" stroke-width="1.4" marker-end="url(#garrow0)"/>
+<line x1="450" y1="294" x2="450" y2="340" stroke="#B8963C" stroke-width="1.4" marker-end="url(#garrow0)"/>
+<line x1="540" y1="294" x2="600" y2="340" stroke="#B8963C" stroke-width="1.4" marker-end="url(#garrow0)"/>
+
+<!-- Providers -->
+<rect x="180" y="346" width="220" height="56" rx="10" fill="#FFFFFF" stroke="#D8CBA6" stroke-width="1.2"/>
+<text x="290" y="380" text-anchor="middle" font-family="Liberation Sans, sans-serif" font-size="15" font-weight="bold" fill="#1A1D29">Anthropic</text>
+
+<rect x="340" y="346" width="220" height="56" rx="10" fill="#FFFFFF" stroke="#D8CBA6" stroke-width="1.2"/>
+<text x="450" y="380" text-anchor="middle" font-family="Liberation Sans, sans-serif" font-size="15" font-weight="bold" fill="#1A1D29">OpenAI</text>
+
+<rect x="500" y="346" width="220" height="56" rx="10" fill="#FFFFFF" stroke="#D8CBA6" stroke-width="1.2"/>
+<text x="610" y="380" text-anchor="middle" font-family="Liberation Sans, sans-serif" font-size="15" font-weight="bold" fill="#1A1D29">Google</text>
+
+<line x1="450" y1="402" x2="450" y2="440" stroke="#B8963C" stroke-width="1.4" marker-end="url(#garrow0)"/>
+
+<!-- Eval harness gate -->
+<rect x="255" y="446" width="390" height="56" rx="10" fill="#FAEEDA" stroke="#C9A445" stroke-width="1.2"/>
+<text x="450" y="470" text-anchor="middle" font-family="Liberation Sans, sans-serif" font-size="16" font-weight="bold" fill="#633806">Eval harness gate</text>
+<text x="450" y="488" text-anchor="middle" font-family="Liberation Sans, sans-serif" font-size="12" fill="#854F0B">Golden set + shadow mode before any cutover</text>
+
+<rect x="30" y="522" width="840" height="34" rx="6" fill="#1A1D29"/>
+<circle cx="52" cy="539" r="9" fill="none" stroke="#C9A445" stroke-width="1.3"/>
+<path d="M49 539 L52 535.5 L55 539 L52 542.5 Z" fill="#C9A445"/>
+<text x="72" y="544" font-family="Liberation Sans, sans-serif" font-size="12" font-weight="bold" fill="#C9A445" letter-spacing="1.5">AGENTICSECOPS: BUILD VS. BUY — MODULE 0</text>
+</svg>
