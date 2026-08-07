@@ -1,0 +1,4 @@
+# Install alongside the shared root requirements.txt
+# No additional Python dependencies beyond the shared set — this
+# module calls your IdP's REST API directly (Okta or Entra ID SDKs
+# optional, add if you prefer them over raw HTTP calls).
