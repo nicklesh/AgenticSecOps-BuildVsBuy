@@ -40,7 +40,7 @@ explicitly authorized to test.
 | 2 | [Attack Surface Management (ASM) Agent](./02-asm) | **Shipped** | Continuous external asset discovery and exposure tracking |
 | 3 | [CSPM Agent](./03-cspm) | **Shipped (pilot module)** | Cloud config drift detection against CIS benchmarks |
 | 4 | [Vulnerability Prioritization & Patch Agent](./04-vuln-patch) | **Shipped** | CVE triage against exploit-in-the-wild data and asset criticality |
-| 5 | [SAST/DAST + OWASP Top 10 Agent](./05-sast-dast) | Coming soon | Continuous code and app scanning integrated into CI/CD |
+| 5 | [SAST/DAST + OWASP Top 10 Agent](./05-sast-dast) | **Shipped** | Continuous code and app scanning integrated into CI/CD |
 | 6 | [Identity & Access Review Agent](./06-identity-access) | Coming soon | Continuous IAM review, stale/excess privilege detection |
 | 7 | [Phishing Simulation & Awareness Agent](./07-phishing-sim) | Coming soon | Simulated phishing campaigns and targeted training |
 | 8 | [Breach & Attack Simulation Agent](./08-bas-redteam) | Coming soon | Detection-validation against MITRE ATT&CK (architecture + pseudocode only — see disclaimer) |
