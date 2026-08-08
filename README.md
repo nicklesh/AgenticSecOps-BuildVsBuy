@@ -35,17 +35,17 @@ explicitly authorized to test.
 
 | # | Module | Status | What it covers |
 |---|--------|--------|-----------------|
-| 0 | [Foundations](./00-foundations) | **Shipped** | Model-abstraction pattern, eval-harness design, and the authorization/legal baseline every other module builds on |
-| 1 | [GRC / Compliance Evidence Agent](./01-grc-compliance) | **Shipped** | Continuous control-evidence collection for SOC 2 / HIPAA / ISO |
-| 2 | [Attack Surface Management (ASM) Agent](./02-asm) | **Shipped** | Continuous external asset discovery and exposure tracking |
-| 3 | [CSPM Agent](./03-cspm) | **Shipped (pilot module)** | Cloud config drift detection against CIS benchmarks |
-| 4 | [Vulnerability Prioritization & Patch Agent](./04-vuln-patch) | **Shipped** | CVE triage against exploit-in-the-wild data and asset criticality |
-| 5 | [SAST/DAST + OWASP Top 10 Agent](./05-sast-dast) | **Shipped** | Continuous code and app scanning integrated into CI/CD |
-| 6 | [Identity & Access Review Agent](./06-identity-access) | **Shipped** | Continuous IAM review, stale/excess privilege detection |
-| 7 | [Phishing Simulation & Awareness Agent](./07-phishing-sim) | **Shipped** | Simulated phishing campaigns and targeted training |
-| 8 | [Breach & Attack Simulation Agent](./08-bas-redteam) | **Shipped** | Detection-validation against MITRE ATT&CK (architecture + pseudocode only — see disclaimer) |
-| 9 | [Autonomous Pentest Agent](./09-autonomous-pentest) | **Shipped** | Why this is the one module where "buy" is the default answer (architecture + pseudocode only — see disclaimer) |
-| 10 | [SOC Alert-Triage Agent](./10-soc-triage) | **Shipped** | Automated alert investigation and verdict drafting |
+| 0 | [Foundations](./00-foundations) | Model-abstraction pattern, eval-harness design, and the authorization/legal baseline every other module builds on |
+| 1 | [GRC / Compliance Evidence Agent](./01-grc-compliance) | Continuous control-evidence collection for SOC 2 / HIPAA / ISO |
+| 2 | [Attack Surface Management (ASM) Agent](./02-asm) | Continuous external asset discovery and exposure tracking |
+| 3 | [CSPM Agent](./03-cspm) | Cloud config drift detection against CIS benchmarks |
+| 4 | [Vulnerability Prioritization & Patch Agent](./04-vuln-patch) | CVE triage against exploit-in-the-wild data and asset criticality |
+| 5 | [SAST/DAST + OWASP Top 10 Agent](./05-sast-dast) | Continuous code and app scanning integrated into CI/CD |
+| 6 | [Identity & Access Review Agent](./06-identity-access) | Continuous IAM review, stale/excess privilege detection |
+| 7 | [Phishing Simulation & Awareness Agent](./07-phishing-sim) | Simulated phishing campaigns and targeted training |
+| 8 | [Breach & Attack Simulation Agent](./08-bas-redteam) | Detection-validation against MITRE ATT&CK (architecture + pseudocode only — see disclaimer) |
+| 9 | [Autonomous Pentest Agent](./09-autonomous-pentest) | Why this is the one module where "buy" is the default answer (architecture + pseudocode only — see disclaimer) |
+| 10 | [SOC Alert-Triage Agent](./10-soc-triage) | Automated alert investigation and verdict drafting |
 
 ## What each module includes
 
