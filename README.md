@@ -45,7 +45,7 @@ explicitly authorized to test.
 | 7 | [Phishing Simulation & Awareness Agent](./07-phishing-sim) | **Shipped** | Simulated phishing campaigns and targeted training |
 | 8 | [Breach & Attack Simulation Agent](./08-bas-redteam) | **Shipped** | Detection-validation against MITRE ATT&CK (architecture + pseudocode only — see disclaimer) |
 | 9 | [Autonomous Pentest Agent](./09-autonomous-pentest) | **Shipped** | Why this is the one module where "buy" is the default answer (architecture + pseudocode only — see disclaimer) |
-| 10 | [SOC Alert-Triage Agent](./10-soc-triage) | Coming soon | Automated alert investigation and verdict drafting |
+| 10 | [SOC Alert-Triage Agent](./10-soc-triage) | **Shipped** | Automated alert investigation and verdict drafting |
 
 ## What each module includes
 
