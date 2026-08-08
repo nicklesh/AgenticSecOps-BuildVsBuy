@@ -1,0 +1,4 @@
+# Install alongside the shared root requirements.txt
+# No additional Python dependencies beyond the shared set — this
+# module calls your SIEM/EDR's alert API directly (add their SDK here
+# if you prefer it over raw HTTP calls).
