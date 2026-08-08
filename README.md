@@ -33,8 +33,8 @@ explicitly authorized to test.
 
 ## Module Index
 
-| # | Module | Status | What it covers |
-|---|--------|--------|-----------------|
+| # | Module | What it covers |
+|---|--------|-----------------|
 | 0 | [Foundations](./00-foundations) | Model-abstraction pattern, eval-harness design, and the authorization/legal baseline every other module builds on |
 | 1 | [GRC / Compliance Evidence Agent](./01-grc-compliance) | Continuous control-evidence collection for SOC 2 / HIPAA / ISO |
 | 2 | [Attack Surface Management (ASM) Agent](./02-asm) | Continuous external asset discovery and exposure tracking |
